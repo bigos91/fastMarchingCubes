@@ -6,7 +6,7 @@
 
 #### Features:
 - 2 different triangulation tables (read Mesher.Arrays.cs)
-- Naive version, SIMD optimized, and SIMD multithreaded.
+- Naive version, SIMD, and SIMD multithreaded.
 - No normals generated, intead they are calculated in fragment shader (ddx,ddy)
 - No comment on simd stuff - if you need explanation read https://github.com/bigos91/fastNaiveSurfaceNets it is same.
 - Cornermask calculations are done using SIMD stuff, 32 cubes at time (32x2x2 voxels), reusing values calculated from previous loop steps.
