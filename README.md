@@ -4,6 +4,7 @@
 - Similiar to : https://github.com/bigos91/fastNaiveSurfaceNets
 - Triangulation table is a bit different than original - different corner indexing is used to make simd stuff possible
 ![alt text](https://github.com/bigos91/fastMarchingCubes/blob/main/screen.jpg?raw=true)
+https://www.youtube.com/watch?v=fIzZdO7FxqQ&ab_channel=Bigos91
 
 #### Features:
 - 2 different triangulation tables (read Mesher.Arrays.cs)
