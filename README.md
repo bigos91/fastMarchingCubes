@@ -1,9 +1,7 @@
 # fastMarchingCubes
-Fast implementation of Marching Cubes in Unity, using Burst and SIMD instructions.
-
-Similiar to : https://github.com/bigos91/fastNaiveSurfaceNets
-
-Triangulation table is a bit different than original - different corner indexing is used to make simd stuff possible
+- Fast implementation of Marching Cubes in Unity, using Burst and SIMD instructions.
+- Similiar to : https://github.com/bigos91/fastNaiveSurfaceNets
+- Triangulation table is a bit different than original - different corner indexing is used to make simd stuff possible
 
 #### Features:
 - 2 different triangulation tables (read Mesher.Arrays.cs)
@@ -24,13 +22,10 @@ Triangulation table is a bit different than original - different corner indexing
 - Disable everything what makes burst safe to make it faster :)
 
 #### Resources:
-http://paulbourke.net/geometry/polygonise/ - table
-
-http://paulbourke.net/geometry/polygonise/table2.txt - alternative table
-
-https://github.com/SebLague/Marching-Cubes - corner tables
-
-https://github.com/Chaser324/unity-wireframe - for wireframe.
+- http://paulbourke.net/geometry/polygonise/ - table
+- http://paulbourke.net/geometry/polygonise/table2.txt - alternative table
+- https://github.com/SebLague/Marching-Cubes - corner tables
+- https://github.com/Chaser324/unity-wireframe - for wireframe.
 
 #### Todo:
  - 16^3 size version
