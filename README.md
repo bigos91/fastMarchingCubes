@@ -25,8 +25,11 @@ Triangulation table is a bit different than original - different corner indexing
 
 #### Resources:
 http://paulbourke.net/geometry/polygonise/ - table
+
 http://paulbourke.net/geometry/polygonise/table2.txt - alternative table
+
 https://github.com/SebLague/Marching-Cubes - corner tables
+
 https://github.com/Chaser324/unity-wireframe - for wireframe.
 
 #### Todo:
