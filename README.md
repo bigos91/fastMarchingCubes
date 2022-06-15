@@ -1,6 +1,8 @@
 # fastMarchingCubes
 Fast implementation of Marching Cubes in Unity, using Burst and SIMD instructions.
+
 Similiar to : https://github.com/bigos91/fastNaiveSurfaceNets
+
 Triangulation table is a bit different than original - different corner indexing is used to make simd stuff possible
 
 #### Features:
