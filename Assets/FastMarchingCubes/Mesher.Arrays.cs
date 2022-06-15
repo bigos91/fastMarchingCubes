@@ -11,7 +11,8 @@ namespace MarchingCubes
 {
 	public partial class Mesher
 	{
-		public const int TriangulationSubTableLenght = 13; // can be either 13 or 16, there are 2 different arrays
+		public const int TriangulationSubTableLenght = 16; // can be either 13 or 16, there are 2 different arrays
+		// 13 version can produce holes in mesh in some cases.
 
 		private static void AllocateLookupArrays()
 		{
