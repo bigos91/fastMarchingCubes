@@ -17,7 +17,9 @@ https://www.youtube.com/watch?v=fIzZdO7FxqQ&ab_channel=Bigos91
 - Multithreaded version sometimes gives better performance results, sometimes not. No idea why.
 
 #### Limitations:
-- Meshed area must have 32 voxels in at least one dimension. (SIMD implementation support only chunks 32^3, but it is possible to make it working with 32xNxM)
+- Meshed area must have 32 voxels in Z dimension to make SIMD implementation work
+- 32x32x32 volumes, but it is possible to make it working with 32xNxM, or any size if you do not use SIMD stuff.
+- It is only meshing algorithm. No any king of world management, etc.
 
 #### Requirements:
 - Unity (2020.3 works fine, dont know about previous versions)
