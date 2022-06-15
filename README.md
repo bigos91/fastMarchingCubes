@@ -12,6 +12,9 @@
 - No comment on simd stuff - if you need explanation read https://github.com/bigos91/fastNaiveSurfaceNets it is same.
 - Cornermask calculations are done using SIMD stuff, 32 cubes at time (32x2x2 voxels), reusing values calculated from previous loop steps.
 
+#### Problems:
+- Multithreaded version sometimes gives better performance results, sometimes not. No idea why.
+
 #### Limitations:
 - Meshed area must have 32 voxels in at least one dimension. (SIMD implementation support only chunks 32^3, but it is possible to make it working with 32xNxM)
 
